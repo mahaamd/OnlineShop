@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|c:\\users\\mohammad\\downloads\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\Common\\Contracts\\DatabaseConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Common\\Contracts\\DatabaseConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|c:\\users\\mohammad\\downloads\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|c:\\users\\mohammad\\downloads\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\appuseraggregate\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\appuseraggregate\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 313,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseConstants.cs",
+              "DocumentMoniker": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\Common\\Contracts\\DatabaseConstants.cs",
+              "RelativeDocumentMoniker": "Common\\Contracts\\DatabaseConstants.cs",
+              "ToolTip": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\Common\\Contracts\\DatabaseConstants.cs",
+              "RelativeToolTip": "Common\\Contracts\\DatabaseConstants.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T13:04:59.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAywBkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T12:36:59.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\AppUserAggregate\\AppUser.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\AppUserAggregate\\AppUser.cs",
+              "ToolTip": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\AppUserAggregate\\AppUser.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\AppUserAggregate\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T11:20:39.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T11:08:04.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 87,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
