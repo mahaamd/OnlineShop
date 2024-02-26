@@ -1604,6 +1604,16 @@
           }
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
       "OnlineShop.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1639,6 +1649,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Common": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.2",
           "Microsoft.EntityFrameworkCore": "9.0.0-preview.1.24081.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.1.24081.2",
@@ -4308,6 +4319,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
     "OnlineShop.Application/1.0.0": {
       "type": "project",
       "path": "../OnlineShop.Application/OnlineShop.Application.csproj",
@@ -4340,11 +4356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\OnlineShop.Presentation.csproj",
+      "projectUniqueName": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\OnlineShop.Presentation.csproj",
       "projectName": "OnlineShop.Presentation",
-      "projectPath": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\OnlineShop.Presentation.csproj",
+      "projectPath": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\OnlineShop.Presentation.csproj",
       "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\obj\\",
+      "outputPath": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4361,8 +4377,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj": {
-              "projectPath": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj"
+            "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj": {
+              "projectPath": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Application\\OnlineShop.Application.csproj"
             }
           }
         }

@@ -6,7 +6,7 @@ using OnlineShop.Domain.Models.Aggregates.AppUserAggregate;
 
 namespace OnlineShop.Infrastructure.Configurations
 {
-    public class MbssUserConfiguration : IEntityTypeConfiguration<AppUser>
+    public class UserConfiguration : IEntityTypeConfiguration<AppUser>
     {
         public void Configure(EntityTypeBuilder<AppUser> builder)
         {
@@ -41,6 +41,7 @@ namespace OnlineShop.Infrastructure.Configurations
             builder.ToTable(table => table.HasCheckConstraint(
                 DatabaseConstants.CheckConstraints.CellphoneOnlyNumericalTitle,
                 DatabaseConstants.CheckConstraints.CellphoneOnlyNumerical));
+
             builder.ToTable(table => table.HasCheckConstraint(
                 DatabaseConstants.CheckConstraints.NationalIdOnlyNumericalTitle,
                 DatabaseConstants.CheckConstraints.NationalIdOnlyNumerical));

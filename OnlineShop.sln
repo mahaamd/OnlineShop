@@ -5,11 +5,13 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Presentation", "OnlineShop.Presentation\OnlineShop.Presentation.csproj", "{E15D9972-8B53-4881-A951-7D314F2B88C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Application", "OnlineShop.Application\OnlineShop.Application.csproj", "{98E77267-7A6C-4E2E-BF48-62A460FF5F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Application", "OnlineShop.Application\OnlineShop.Application.csproj", "{98E77267-7A6C-4E2E-BF48-62A460FF5F46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Infrastructure", "OnlineShop.Infrastructure\OnlineShop.Infrastructure.csproj", "{96AAC680-2B06-4453-BFE4-A9615C2B391C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Infrastructure", "OnlineShop.Infrastructure\OnlineShop.Infrastructure.csproj", "{96AAC680-2B06-4453-BFE4-A9615C2B391C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Domain", "OnlineShop.Domain\OnlineShop.Domain.csproj", "{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Domain", "OnlineShop.Domain\OnlineShop.Domain.csproj", "{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{4293A4B9-D068-4F35-BA19-84D035DD5295}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4293A4B9-D068-4F35-BA19-84D035DD5295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4293A4B9-D068-4F35-BA19-84D035DD5295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4293A4B9-D068-4F35-BA19-84D035DD5295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4293A4B9-D068-4F35-BA19-84D035DD5295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

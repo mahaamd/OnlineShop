@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {}
+    "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
+    "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+        "projectUniqueName": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
         "projectName": "OnlineShop.Domain",
-        "projectPath": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
+        "projectPath": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\OnlineShop.Domain.csproj",
         "packagesPath": "C:\\Users\\mohammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\obj\\",
+        "outputPath": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",

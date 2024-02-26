@@ -14,6 +14,8 @@ namespace OnlineShop.Domain.Models.Aggregates.OrderAggregates
         public DateTime? Date { get; set; }
         public string? Seller { get; set; }
         public string? Buyer { get; set; }
-        public List<OrderDetail>? OrderDetails { get; set; }
+        public List<OrderDetail> OrderDetails { get; } = [];
+
+
     }
 }

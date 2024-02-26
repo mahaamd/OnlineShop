@@ -10,61 +10,35 @@ using OnlineShop.Domain.Models.Aggregates.UserRoleAggregate;
 
 namespace OnlineShop.Infrastructure.Configurations
 {
-    public class RoleConfiguration : IEntityTypeConfiguration<UserRole>
+    public class RoleConfiguration : IEntityTypeConfiguration<AppRole>
     {
-        public void Configure(EntityTypeBuilder<UserRole> builder)
+        public void Configure(EntityTypeBuilder<AppRole> builder)
         {
-            builder.ToTable(nameof(UserRole)).
+            builder.ToTable(nameof(AppRole)).
                 HasData(
-                new UserRole()
+                new AppRole()
                 {
                     Id = DatabaseConstants.DefaultRoles.GodAdminId,
                     Name = DatabaseConstants.DefaultRoles.GodAdminName,
                     NormalizedName = DatabaseConstants.DefaultRoles.GodAdminNormalizedName,
                     ConcurrencyStamp = DatabaseConstants.DefaultRoles.GodAdminConcurrencyStamp,
                 },
-                new UserRole()
+                new AppRole()
                 {
                     Id = DatabaseConstants.DefaultRoles.AdminId,
                     Name = DatabaseConstants.DefaultRoles.AdminName,
                     NormalizedName = DatabaseConstants.DefaultRoles.AdminNormalizedName,
                     ConcurrencyStamp = DatabaseConstants.DefaultRoles.AdminConcurrencyStamp,
                 },
-                new UserRole()
+        
+                new AppRole()
                 {
-                    Id = DatabaseConstants.DefaultRoles.SupportId,
-                    Name = DatabaseConstants.DefaultRoles.SupportName,
-                    NormalizedName = DatabaseConstants.DefaultRoles.SupportNormalizedName,
-                    ConcurrencyStamp = DatabaseConstants.DefaultRoles.SupportConcurrencyStamp,
-                },
-                new UserRole()
-                {
-                    Id = DatabaseConstants.DefaultRoles.SurgeonId,
-                    Name = DatabaseConstants.DefaultRoles.SurgeonName,
-                    NormalizedName = DatabaseConstants.DefaultRoles.SurgeonNormalizedName,
-                    ConcurrencyStamp = DatabaseConstants.DefaultRoles.SurgeonConcurrencyStamp,
-                },
-                new UserRole()
-                {
-                    Id = DatabaseConstants.DefaultRoles.GpId,
-                    Name = DatabaseConstants.DefaultRoles.GpName,
-                    NormalizedName = DatabaseConstants.DefaultRoles.GpNormalizedName,
-                    ConcurrencyStamp = DatabaseConstants.DefaultRoles.GpConcurrencyStamp,
-                },
-                new UserRole()
-                {
-                    Id = DatabaseConstants.DefaultRoles.GpAssistantId,
-                    Name = DatabaseConstants.DefaultRoles.GpAssistantName,
-                    NormalizedName = DatabaseConstants.DefaultRoles.GpAssistantNormalizedName,
-                    ConcurrencyStamp = DatabaseConstants.DefaultRoles.GpAssistantConcurrencyStamp,
-                },
-                new UserRole()
-                {
-                    Id = DatabaseConstants.DefaultRoles.PatientId,
-                    Name = DatabaseConstants.DefaultRoles.PatientName,
-                    NormalizedName = DatabaseConstants.DefaultRoles.PatientNormalizedName,
-                    ConcurrencyStamp = DatabaseConstants.DefaultRoles.PatientConcurrencyStamp,
+                    Id = DatabaseConstants.DefaultRoles.userNumOneId,
+                    Name = DatabaseConstants.DefaultRoles.userNumOneName,
+                    NormalizedName = DatabaseConstants.DefaultRoles.userNumOneNormalizedName,
+                    ConcurrencyStamp = DatabaseConstants.DefaultRoles.userNumOneConcurrencyStamp,
                 }
+                
             );
 
         }

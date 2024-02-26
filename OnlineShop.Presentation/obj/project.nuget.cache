@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eMSwI53vy3WDfcIfU6dxqr00E8svHGYQrH/XGn3d84gKkV8j6CLDIVMFykaMAO+H2sN9qz9DlYUPme5lC28ChA==",
+  "dgSpecHash": "z7C2H67qjgxSjuQtuioBoO2OG5CW6umNRcCgbVsmUhLfyUimkfwiuKJA7dYZLJ7dxkVpKSi7Dyeb0qUbogBZdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mohammad\\Downloads\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\OnlineShop.Presentation.csproj",
+  "projectFilePath": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\OnlineShop.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohammad\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mohammad\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

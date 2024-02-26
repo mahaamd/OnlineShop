@@ -1,6 +1,7 @@
-﻿using BookStore.Domain.Models.OrderAggregates;
+﻿
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using OnlineShop.Domain.Models.Aggregates.OrderAggregates;
 
 namespace BookStore.Infrastructure.Configurations
 {

@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 
 namespace OnlineShop.Domain.Models.Aggregates.UserRoleAggregate
 {
-    public class UserRole: IdentityRole, IDbSetEntity
+    public class AppUserRole: IdentityUserRole<string>
     {
         //Fields
-
 
     }
 }
