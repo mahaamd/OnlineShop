@@ -11,25 +11,29 @@ using Microsoft.AspNetCore.Identity;
 using OnlineShop.Domain.Models.Aggregates.AppUserAggregate;
 using OnlineShop.Domain.Models.Aggregates.ProductAggregates;
 using OnlineShop.Domain.Models.Aggregates.OrderAggregates;
+using OnlineShop.Domain.Models.Aggregates.UserRoleAggregate;
 
 namespace OnlineShop.Infrastructure
 {
-    public class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, string>
+    public class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, string,
+        IdentityUserClaim<string>, AppUserRole, IdentityUserLogin<string>,
+        IdentityRoleClaim<string>, IdentityUserToken<string>>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-        //    base.OnModelCreating(modelBuilder);
-        //}
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.HasDefaultSchema("UserManagement");
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            base.OnModelCreating(modelBuilder);
+        }
 
 
         public DbSet<OrderDetail> OrderDetail { get; set; }
         public DbSet<OrderHeader> OrderHeader { get; set; }
         public DbSet<Product> Product { get; set; }
         public DbSet<ProductCategory> ProductCategory { get; set; }
-        public DbSet<OrderHeaderOrderDetail> OrderHeaderOrderDetail { get; set; }
+        //public DbSet<OrderHeaderOrderDetail> OrderHeaderOrderDetail { get; set; }
 
     }
 }

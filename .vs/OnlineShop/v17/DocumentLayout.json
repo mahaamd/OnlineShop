@@ -3,104 +3,124 @@
   "WorkspaceRootPath": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E15D9972-8B53-4881-A951-7D314F2B88C6}|OnlineShop.Presentation\\OnlineShop.Presentation.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15D9972-8B53-4881-A951-7D314F2B88C6}|OnlineShop.Presentation\\OnlineShop.Presentation.csproj|solutionrelative:onlineshop.presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\orderaggregates\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\orderaggregates\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\services\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\services\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\orderaggregates\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\orderaggregates\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\contracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\contracts\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\orderaggregates\\orderheaderorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\orderaggregates\\orderheaderorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\services\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\services\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\contracts\\iconpletebaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\contracts\\iconpletebaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\orderheaderorderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\orderheaderorderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240226191951_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240226191951_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240226191756_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240226191756_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\userroleaggregate\\appuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\userroleaggregate\\appuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\productcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\productcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225201556_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240225201556_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225195908_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240225195908_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225195531_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240225195531_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225193507_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240225193507_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\productaggregates\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\productaggregates\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\productaggregates\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\productaggregates\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225174146_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240225174146_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173604_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240225173604_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\contracts\\iprocuctcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\contracts\\iprocuctcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173251_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240225173251_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E15D9972-8B53-4881-A951-7D314F2B88C6}|OnlineShop.Presentation\\OnlineShop.Presentation.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15D9972-8B53-4881-A951-7D314F2B88C6}|OnlineShop.Presentation\\OnlineShop.Presentation.csproj|solutionrelative:onlineshop.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\productcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\productcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\orderaggregates\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\orderaggregates\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\productaggregates\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\productaggregates\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\services\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\services\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306074152_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240306074152_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306073918_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240306073918_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306073746_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240306073746_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\orderaggregates\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\orderaggregates\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306072638_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240306072638_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\orderheaderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\orderheaderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173001_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240225173001_addDomainstoDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306062633_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240306062633_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\appuseraggregate\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\appuseraggregate\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306061736_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240306061736_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.domain\\models\\aggregates\\approleaggregate\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0E5275-DF0D-4A72-A1BE-2E16C3BC788B}|OnlineShop.Domain\\OnlineShop.Domain.csproj|solutionrelative:onlineshop.domain\\models\\aggregates\\approleaggregate\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240229161713_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop.Infrastructure\\Migrations\\20240229161713_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|d:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanclass\\onlineshop\\onlineshop\\onlineshop.infrastructure\\migrations\\20240306083233_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AAC680-2B06-4453-BFE4-A9615C2B391C}|OnlineShop.Infrastructure\\OnlineShop.Infrastructure.csproj|solutionrelative:onlineshop.infrastructure\\migrations\\20240306083233_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 313,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,311 +142,380 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderHeaderOrderDetailConfiguration.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\OrderHeaderOrderDetailConfiguration.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\OrderHeaderOrderDetailConfiguration.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\OrderHeaderOrderDetailConfiguration.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\OrderHeaderOrderDetailConfiguration.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:51:38.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderHeaderOrderDetail.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeaderOrderDetail.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeaderOrderDetail.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeaderOrderDetail.cs",
-              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeaderOrderDetail.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAADwvwoAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:50:22.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAywB0AAAApAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "OnlineShop.Presentation\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAUwG8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:29:50.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderDetailConfiguration.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAswAoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:31:44.747Z",
+              "WhenOpened": "2024-02-27T14:16:00.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderDetail.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderDetail.cs",
-              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderDetail.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBAAAAA8AAAA",
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Contracts\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Contracts\\IBaseRepository.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Contracts\\IBaseRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Contracts\\IBaseRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAlwA8AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:31:26.349Z",
+              "WhenOpened": "2024-02-27T12:21:41.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderHeader.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeader.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeader.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeader.cs",
-              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeader.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAIAwwAoAAAAcAAAA",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Services\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Services\\ProductRepository.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Services\\ProductRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Services\\ProductRepository.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAewKwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:12:39.356Z",
+              "WhenOpened": "2024-03-06T08:13:55.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IproductRepository.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Contracts\\IproductRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Contracts\\IproductRepository.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Contracts\\IproductRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Contracts\\IproductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:15:44.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IConpleteBaseRepository.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Contracts\\IConpleteBaseRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Contracts\\IConpleteBaseRepository.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Contracts\\IConpleteBaseRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Contracts\\IConpleteBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T06:00:20.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Services\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Services\\OrderDetailRepository.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Services\\OrderDetailRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Services\\OrderDetailRepository.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAnwDAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T06:15:43.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20240226191951_2.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240226191951_2.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240226191951_2.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240226191951_2.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240226191951_2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T19:19:51.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240226191756_1.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240226191756_1.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240226191756_1.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240226191756_1.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240226191756_1.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAiwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T19:17:56.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppUserRole.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\UserRoleAggregate\\AppUserRole.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\UserRoleAggregate\\AppUserRole.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\UserRoleAggregate\\AppUserRole.cs",
-              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\UserRoleAggregate\\AppUserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:15:55.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductCategoryConfiguration.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\ProductCategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\ProductCategoryConfiguration.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\ProductCategoryConfiguration.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\ProductCategoryConfiguration.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:28:24.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240225195531_addDomainstoDb.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225195531_addDomainstoDb.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240225195531_addDomainstoDb.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225195531_addDomainstoDb.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240225195531_addDomainstoDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:55:32.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20240225201556_2.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225201556_2.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240225201556_2.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225201556_2.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240225201556_2.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T20:15:56.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240225195908_addDomainstoDb.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225195908_addDomainstoDb.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240225195908_addDomainstoDb.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225195908_addDomainstoDb.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240225195908_addDomainstoDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:59:08.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20240225193507_addDomainstoDb.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225193507_addDomainstoDb.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240225193507_addDomainstoDb.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225193507_addDomainstoDb.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240225193507_addDomainstoDb.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAywD4AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:35:07.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:34:27.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA4wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:34:24.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\ProductAggregates\\Product.cs",
               "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\ProductAggregates\\Product.cs",
               "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\ProductAggregates\\Product.cs",
               "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\ProductAggregates\\Product.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAATAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T19:15:42.386Z"
+              "WhenOpened": "2024-02-27T15:20:26.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserRoleConfiguration.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\UserRoleConfiguration.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\UserRoleConfiguration.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\UserRoleConfiguration.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\UserRoleConfiguration.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAZAAAA",
+              "DocumentIndex": 7,
+              "Title": "OrderDetailConfiguration.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:41:19.078Z"
+              "WhenOpened": "2024-02-29T15:46:55.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20240225174146_addDomainstoDb.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225174146_addDomainstoDb.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240225174146_addDomainstoDb.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225174146_addDomainstoDb.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240225174146_addDomainstoDb.cs",
+              "DocumentIndex": 29,
+              "Title": "20240306083233_1.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306083233_1.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240306083233_1.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306083233_1.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240306083233_1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:41:46.511Z"
+              "WhenOpened": "2024-03-06T08:32:33.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AppUserConfiguration.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\AppUserConfiguration.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\AppUserConfiguration.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\AppUserConfiguration.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\AppUserConfiguration.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAywDoAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "IProcuctCategoryRepository.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Contracts\\IProcuctCategoryRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Contracts\\IProcuctCategoryRepository.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Contracts\\IProcuctCategoryRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Contracts\\IProcuctCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:37:12.121Z"
+              "WhenOpened": "2024-02-27T06:00:17.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Presentation\\Program.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Presentation\\Program.cs",
+              "RelativeToolTip": "OnlineShop.Presentation\\Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAACcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T06:08:46.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAABSwA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T15:21:31.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderDetail.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderDetail.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderDetail.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T15:38:02.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductCategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\ProductCategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\ProductCategoryConfiguration.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\ProductCategoryConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\ProductCategoryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:09:54.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ProductCategory.cs",
               "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\ProductAggregates\\ProductCategory.cs",
               "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\ProductAggregates\\ProductCategory.cs",
               "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\ProductAggregates\\ProductCategory.cs",
               "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\ProductAggregates\\ProductCategory.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAABAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA0wBAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:28:48.916Z"
+              "WhenOpened": "2024-02-29T15:30:55.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240306074152_1.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306074152_1.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240306074152_1.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306074152_1.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240306074152_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T07:41:52.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240306073918_1.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306073918_1.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240306073918_1.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306073918_1.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240306073918_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T07:39:18.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductCategoryRepository.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Services\\ProductCategoryRepository.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Services\\ProductCategoryRepository.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Services\\ProductCategoryRepository.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Services\\ProductCategoryRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAABSwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T07:30:49.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240306073746_1.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306073746_1.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240306073746_1.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306073746_1.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240306073746_1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T07:37:46.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA4wBkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T14:19:47.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderHeader.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeader.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeader.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeader.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\OrderAggregates\\OrderHeader.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T15:37:59.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240306072638_1.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306072638_1.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240306072638_1.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306072638_1.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240306072638_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T07:26:38.622Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "20240225173604_addDomainstoDb.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173604_addDomainstoDb.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240225173604_addDomainstoDb.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173604_addDomainstoDb.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240225173604_addDomainstoDb.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAywAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:36:04.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20240225173251_addDomainstoDb.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173251_addDomainstoDb.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240225173251_addDomainstoDb.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173251_addDomainstoDb.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240225173251_addDomainstoDb.cs",
-              "ViewState": "AQIAAMsAAAAAAAAAAAD4v9QAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:32:51.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "OrderHeaderConfiguration.cs",
               "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\OrderHeaderConfiguration.cs",
               "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\OrderHeaderConfiguration.cs",
               "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\OrderHeaderConfiguration.cs",
               "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\OrderHeaderConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T06:15:52.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240306062633_1.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306062633_1.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240306062633_1.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306062633_1.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240306062633_1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:31:38.311Z"
+              "WhenOpened": "2024-03-06T06:26:34.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T06:21:31.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "20240225173001_addDomainstoDb.cs",
-              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173001_addDomainstoDb.cs",
-              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240225173001_addDomainstoDb.cs",
-              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240225173001_addDomainstoDb.cs",
-              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240225173001_addDomainstoDb.cs",
+              "Title": "UserRoleConfiguration.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\UserRoleConfiguration.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Configurations\\UserRoleConfiguration.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Configurations\\UserRoleConfiguration.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Configurations\\UserRoleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T06:22:48.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\AppUserAggregate\\AppUser.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\AppUserAggregate\\AppUser.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\AppUserAggregate\\AppUser.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\AppUserAggregate\\AppUser.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T06:14:44.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240306061736_1.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306061736_1.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240306061736_1.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240306061736_1.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240306061736_1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T17:30:01.963Z"
+              "WhenOpened": "2024-03-06T06:17:36.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\AppRoleAggregate\\AppRole.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Domain\\Models\\Aggregates\\AppRoleAggregate\\AppRole.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Domain\\Models\\Aggregates\\AppRoleAggregate\\AppRole.cs",
+              "RelativeToolTip": "OnlineShop.Domain\\Models\\Aggregates\\AppRoleAggregate\\AppRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T06:14:42.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240229161713_1.cs",
+              "DocumentMoniker": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240229161713_1.cs",
+              "RelativeDocumentMoniker": "OnlineShop.Infrastructure\\Migrations\\20240229161713_1.cs",
+              "ToolTip": "D:\\mohammad\\pr\\wpr\\dotnet\\proj\\bahmanClass\\OnlineShop\\OnlineShop\\OnlineShop.Infrastructure\\Migrations\\20240229161713_1.cs",
+              "RelativeToolTip": "OnlineShop.Infrastructure\\Migrations\\20240229161713_1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAywAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T16:17:13.428Z"
             }
           ]
         },

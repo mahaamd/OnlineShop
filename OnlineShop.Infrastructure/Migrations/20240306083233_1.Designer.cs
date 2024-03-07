@@ -12,7 +12,7 @@ using OnlineShop.Infrastructure;
 namespace OnlineShop.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240226191756_1")]
+    [Migration("20240306083233_1")]
     partial class _1
     {
         /// <inheritdoc />
@@ -20,6 +20,7 @@ namespace OnlineShop.Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasDefaultSchema("UserManagement")
                 .HasAnnotation("ProductVersion", "9.0.0-preview.1.24081.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
@@ -49,7 +50,30 @@ namespace OnlineShop.Infrastructure.Migrations
                         .HasDatabaseName("RoleNameIndex")
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
-                    b.ToTable("AspNetRoles", (string)null);
+                    b.ToTable("AspNetRoles", "UserManagement");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "10",
+                            ConcurrencyStamp = "mohammad_concurrency_stamp",
+                            Name = "mohammad",
+                            NormalizedName = "ma"
+                        },
+                        new
+                        {
+                            Id = "20",
+                            ConcurrencyStamp = "admin_concurrency_stamp",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "4",
+                            ConcurrencyStamp = "user_num_one_concurrency_stamp",
+                            Name = "User Num One",
+                            NormalizedName = "USER_NUM_ONE"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -74,7 +98,7 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetRoleClaims", (string)null);
+                    b.ToTable("AspNetRoleClaims", "UserManagement");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -99,7 +123,7 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserClaims", (string)null);
+                    b.ToTable("AspNetUserClaims", "UserManagement");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
@@ -121,22 +145,7 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserLogins", (string)null);
-                });
-
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
-                {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("RoleId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("UserId", "RoleId");
-
-                    b.HasIndex("RoleId");
-
-                    b.ToTable("AspNetUserRoles", (string)null);
+                    b.ToTable("AspNetUserLogins", "UserManagement");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -155,7 +164,7 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.HasKey("UserId", "LoginProvider", "Name");
 
-                    b.ToTable("AspNetUserTokens", (string)null);
+                    b.ToTable("AspNetUserTokens", "UserManagement");
                 });
 
             modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.AppUserAggregate.AppUser", b =>
@@ -168,7 +177,7 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.Property<string>("CellPhone")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<bool>("CellPhoneConfirmed")
                         .HasColumnType("bit");
@@ -181,7 +190,9 @@ namespace OnlineShop.Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("DateCreatedLatin")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2024, 3, 6, 12, 2, 33, 172, DateTimeKind.Local).AddTicks(2580));
 
                     b.Property<string>("DateCreatedPersian")
                         .HasColumnType("nvarchar(max)");
@@ -210,13 +221,19 @@ namespace OnlineShop.Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<bool>("IsModified")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -233,10 +250,12 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.Property<string>("NationalId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<bool>("NationalIdConfirmed")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
@@ -270,6 +289,12 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CellPhone")
+                        .IsUnique();
+
+                    b.HasIndex("NationalId")
+                        .IsUnique();
+
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
 
@@ -278,16 +303,76 @@ namespace OnlineShop.Infrastructure.Migrations
                         .HasDatabaseName("UserNameIndex")
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
-                    b.ToTable("AspNetUsers", (string)null);
+                    b.ToTable("AspNetUsers", "UserManagement", t =>
+                        {
+                            t.HasCheckConstraint("CK_CellphoneOnlyNumerical", "[CellPhone] LIKE '[0-9]%'");
+
+                            t.HasCheckConstraint("CK_NationalIdCharacterNumber", "LEN([NationalId]) = 9");
+
+                            t.HasCheckConstraint("CK_NationalIdOnlyNumerical", "[NationalId] LIKE '[0-9]%'");
+                        });
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "2",
+                            AccessFailedCount = 0,
+                            CellPhone = "1234567890",
+                            CellPhoneConfirmed = false,
+                            ConcurrencyStamp = "aa78e258-2a70-4196-90af-2d9e150604ee",
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateCreatedLatin = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateModifiedLatin = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateSoftDeletedLatin = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EmailConfirmed = false,
+                            FirstName = "Izadnia",
+                            IsActive = false,
+                            IsDeleted = false,
+                            IsModified = false,
+                            LastName = "IzadniaLastName",
+                            LockoutEnabled = false,
+                            NationalId = "123456789",
+                            NationalIdConfirmed = true,
+                            PasswordHash = "123456",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "b40b7f58-9568-443f-8814-8216c48bda73",
+                            TwoFactorEnabled = false,
+                            UserName = "izadnia"
+                        },
+                        new
+                        {
+                            Id = "1",
+                            AccessFailedCount = 0,
+                            CellPhone = "9876543210",
+                            CellPhoneConfirmed = false,
+                            ConcurrencyStamp = "caf1c844-900e-4cb9-9aa5-21209687ba8a",
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateCreatedLatin = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateModifiedLatin = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateSoftDeletedLatin = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EmailConfirmed = false,
+                            FirstName = "Bahmanyar",
+                            IsActive = false,
+                            IsDeleted = false,
+                            IsModified = false,
+                            LastName = "BahmanyarLastName",
+                            LockoutEnabled = false,
+                            NationalId = "987654321",
+                            NationalIdConfirmed = true,
+                            PasswordHash = "654321",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "b2298067-d1b6-4967-9032-934c33724770",
+                            TwoFactorEnabled = false,
+                            UserName = "bahmanyar"
+                        });
                 });
 
             modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.OrderAggregates.OrderDetail", b =>
                 {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<Guid>("ProductId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("ProductId")
+                    b.Property<Guid>("OrderHeaderId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Quantity")
@@ -296,11 +381,11 @@ namespace OnlineShop.Infrastructure.Migrations
                     b.Property<int>("UnitPrice")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("ProductId", "OrderHeaderId");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("OrderHeaderId");
 
-                    b.ToTable("OrderDetail");
+                    b.ToTable("OrderDetail", "UserManagement");
                 });
 
             modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.OrderAggregates.OrderHeader", b =>
@@ -313,17 +398,20 @@ namespace OnlineShop.Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Code")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("Date")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2024, 3, 6, 12, 2, 33, 171, DateTimeKind.Local).AddTicks(6019));
 
                     b.Property<string>("Seller")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("OrderHeader");
+                    b.ToTable("OrderHeader", "UserManagement");
                 });
 
             modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.ProductAggregates.Product", b =>
@@ -335,8 +423,8 @@ namespace OnlineShop.Infrastructure.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("ProductCategoryId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("ProductCategoryId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
@@ -346,9 +434,7 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductCategoryId");
-
-                    b.ToTable("Product");
+                    b.ToTable("Product", "UserManagement");
                 });
 
             modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.ProductAggregates.ProductCategory", b =>
@@ -357,7 +443,7 @@ namespace OnlineShop.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("ParentId")
+                    b.Property<Guid>("ParentId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Title")
@@ -368,7 +454,34 @@ namespace OnlineShop.Infrastructure.Migrations
 
                     b.HasIndex("ParentId");
 
-                    b.ToTable("ProductCategory");
+                    b.ToTable("ProductCategory", "UserManagement");
+                });
+
+            modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.UserRoleAggregate.AppUserRole", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", "UserManagement");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "2",
+                            RoleId = "10"
+                        },
+                        new
+                        {
+                            UserId = "1",
+                            RoleId = "10"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -398,7 +511,44 @@ namespace OnlineShop.Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.HasOne("OnlineShop.Domain.Models.Aggregates.AppUserAggregate.AppUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.OrderAggregates.OrderDetail", b =>
+                {
+                    b.HasOne("OnlineShop.Domain.Models.Aggregates.OrderAggregates.OrderHeader", "OrderHeader")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderHeaderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OnlineShop.Domain.Models.Aggregates.ProductAggregates.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("OrderHeader");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.ProductAggregates.ProductCategory", b =>
+                {
+                    b.HasOne("OnlineShop.Domain.Models.Aggregates.ProductAggregates.ProductCategory", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId");
+
+                    b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.UserRoleAggregate.AppUserRole", b =>
                 {
                     b.HasOne("AppRole", null)
                         .WithMany()
@@ -413,42 +563,9 @@ namespace OnlineShop.Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+            modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.OrderAggregates.OrderHeader", b =>
                 {
-                    b.HasOne("OnlineShop.Domain.Models.Aggregates.AppUserAggregate.AppUser", null)
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.OrderAggregates.OrderDetail", b =>
-                {
-                    b.HasOne("OnlineShop.Domain.Models.Aggregates.ProductAggregates.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.ProductAggregates.Product", b =>
-                {
-                    b.HasOne("OnlineShop.Domain.Models.Aggregates.ProductAggregates.ProductCategory", "ProductCategory")
-                        .WithMany()
-                        .HasForeignKey("ProductCategoryId");
-
-                    b.Navigation("ProductCategory");
-                });
-
-            modelBuilder.Entity("OnlineShop.Domain.Models.Aggregates.ProductAggregates.ProductCategory", b =>
-                {
-                    b.HasOne("OnlineShop.Domain.Models.Aggregates.ProductAggregates.ProductCategory", "Parent")
-                        .WithMany()
-                        .HasForeignKey("ParentId");
-
-                    b.Navigation("Parent");
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }
