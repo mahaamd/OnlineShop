@@ -10,7 +10,9 @@ namespace OnlineShop.Domain.Models.Aggregates.ProductAggregates
 {
     public class Product : BaseEntity
     {
-        public ProductCategory? ProductCategory { get; set; }
+        public string? ProductCategoryId { get; set; }
+        //public ProductCategory ProductCategory { get; set; }
+
         public string? Title { get; set; }
         public string? Code { get; set; }
         public int unitPrice { get; set; }

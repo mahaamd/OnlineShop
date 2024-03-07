@@ -13,7 +13,7 @@ namespace OnlineShop.Infrastructure.Configurations
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-           builder.Property(categoryId => categoryId.ProductCategory).IsRequired();
+           //builder.Property(categoryId => categoryId.ProductCategoryId).IsRequired();
         }
     }
 }

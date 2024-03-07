@@ -15,8 +15,10 @@ namespace OnlineShop.Infrastructure.Configurations
         {
             //builder.HasKey(productCategory => productCategory.Parent);
             builder.Property(productCategory => productCategory.Title).IsRequired();
-
-            // Configure ParentId as foreign key
+            builder.HasOne(pc => pc.Parent)
+            .WithMany()
+            .HasForeignKey(pc => pc.ParentId)
+            .IsRequired(false);
 
         }
     }

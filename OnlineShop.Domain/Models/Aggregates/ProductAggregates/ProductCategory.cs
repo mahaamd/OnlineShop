@@ -12,6 +12,8 @@ namespace OnlineShop.Domain.Models.Aggregates.ProductAggregates
     {
         //public Product? ProductId { get; set; }
         public string Title { get; set; }
+
+        public Guid ParentId { get; set; }
         public ProductCategory? Parent { get; set; }
     }
 }

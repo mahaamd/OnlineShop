@@ -8,9 +8,14 @@ namespace BookStore.Infrastructure.Configurations
     {
         public void Configure(EntityTypeBuilder<OrderDetail> builder)
         {
-            //builder.HasKey(orderDetail => new { orderDetail.Product, orderDetail.OrderHeader });
-            builder.Property(orderDetail => orderDetail.Quantity).IsRequired();
-            builder.Property(orderDetail => orderDetail.UnitPrice).IsRequired();
+            builder.HasKey(orderDetail => new { orderDetail.ProductId, orderDetail.OrderHeaderId });
+            builder.HasOne(orderDetail => orderDetail.Product)
+                   .WithMany()
+                   .HasForeignKey(orderDetail => orderDetail.ProductId);
+
+            builder.HasOne(orderDetail => orderDetail.OrderHeader)
+                   .WithMany(orderHeader => orderHeader.OrderDetails)
+                   .HasForeignKey(orderDetail => orderDetail.OrderHeaderId);
         }
     }
 }
